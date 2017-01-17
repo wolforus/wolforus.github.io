@@ -1,7 +1,7 @@
 # Handling Reading
 exclude: [LICENSE, README.md]
 
-title: Your awesome title
+title: It blog
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -36,4 +36,5 @@ timezone: Europe/Moscow
 disqus:
   shortname: wolforus
 
+google_analytics: UA-90456464-1
 
