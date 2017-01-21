@@ -1,15 +1,18 @@
+collections:
+  page_tags:
+    output: true
+    permalink: /tag/:name/
+
 # Handling Reading
 exclude: [LICENSE, README.md]
 
 title: It blog
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: >
+  It blog description
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://wolforus.github.io" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://wolforus.github.io"
 
 github_username:  wolforus
 
@@ -20,6 +23,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-gist
 
 
 # Build settings
@@ -28,7 +32,7 @@ highlighter: rouge
 theme: minima
 
 # Outputting
-permalink: /post/:title/
+permalink: pretty
 paginate: 3
 paginate_path: '/page/:num/'
 timezone: Europe/Moscow
@@ -37,4 +41,10 @@ disqus:
   shortname: wolforus
 
 google_analytics: UA-90456464-1
+name: wolforus
+author: wolforus
+copyright: 2016&mdash;2017
+
+sass:
+  style: compressed
 
